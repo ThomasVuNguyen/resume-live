@@ -1,0 +1,51 @@
+html>body{
+    background-image: url("bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 18px;
+    font-family:"Times New Roman",serif;
+    padding: 10px;
+}
+.solid-edge{
+    display:inline;
+}
+img{
+    height: 200px;
+    display: inline;
+
+}
+a{
+    font-size: 12px;
+}
+p.main{
+    font-style: italic;
+    font-size: 20px;
+}
+.hidden{
+    font-size: 50px;
+}
+.preview{
+    width: 200px;
+    height: 300px;
+}
+header{
+    border-bottom: 1px solid black;
+}
+.jobName, .address{
+    display: inline;
+}
+.address{
+    float: right;
+}
+.position, .date{
+    display: inline;
+}
+.date{
+    float:right;
+}
+.first, .second{
+    display: block;
+}
+.info {
+    font-size: 16px;
+}
