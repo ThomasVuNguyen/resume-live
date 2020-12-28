@@ -1,0 +1,48 @@
+.nav {
+    background-color:#de354c;
+}
+div >p {
+    font-size: 10px;
+    display: inline-block;
+    color: #283747;
+}
+.logo{
+    float: left;
+    margin: 20px;
+}
+.cart{
+    float: right;
+}
+.productPic{
+    height: 200px;
+}
+.descrip{
+    font-size: 40px;
+}
+
+.status{
+    color: black;
+}
+.product>p{
+    color: #3c1874;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    
+}
+.shop{
+    background-color: #f3f3f3;
+    bottom: 0px;
+    
+}
+.purchase > img, .purchase>.buy{
+    display: inline-block;
+}
+.buy>.descrip, .buy> .addToCart{
+    display: block;
+}
+.buy{
+    vertical-align: top;
+}
+

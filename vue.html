@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel ="stylesheet" href = "styleVue.css">
+</head>
+<body>
+<div id = "app">
+    <div class = "nav">
+        <p class = "Logo"> The Thomas Shop</p>
+        <p class = "cart"> Cart: {{number}}</p>
+    </div>
+    <div class = "shop">
+        <div class= "product">
+            <div class = "purchase">
+                <img src = "product.jpg" class = "productPic">
+                <div class ="buy">
+                <p class ="descrip">A beautiful PC setup</p>
+                <button type ="button" v-if ="availability >0" class ="addToCart" v-on:click="addCart">Add to cart</button>
+                <p v-else>Out of stock</p>
+                </div>
+            </div>
+            <p v-if= "availability > 0" class = "status">Availability: In Stock </p>
+            <p v-else class = "status">Availability: Out of Stock </p>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="mainvue.js"></script>
+</body>
+</html>
